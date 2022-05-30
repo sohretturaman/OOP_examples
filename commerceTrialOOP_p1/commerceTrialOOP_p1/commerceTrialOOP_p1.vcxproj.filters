@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\business">
+      <UniqueIdentifier>{dc54b780-642d-45e9-a794-722a606b4aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dataAccess">
+      <UniqueIdentifier>{0752a75f-c926-460d-9191-e9dce8631677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entities">
+      <UniqueIdentifier>{e6057099-f028-4826-8cf6-2414fcde528f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entities\concretes">
+      <UniqueIdentifier>{b48619e9-096c-4465-abf1-a67f5c4cd157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\business\abstracts">
+      <UniqueIdentifier>{d3ffbdc3-1de9-4095-bc3c-84c31796b885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\business\concretes">
+      <UniqueIdentifier>{2bcd1a23-9a77-4480-b4e0-000e5c337611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{39064336-2008-4483-b335-17e635f47db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\utilities">
+      <UniqueIdentifier>{f03b2da5-3cc7-4ee2-94ac-a2e99576c7a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\utilities\Results">
+      <UniqueIdentifier>{f4eb26c5-fe44-4ffb-984c-6a0d0cecf55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\adapters">
+      <UniqueIdentifier>{a29f4f06-7518-4b9e-aea7-4e18546671a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>Source Files\business\concretes</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeManager.cpp">
+      <Filter>Source Files\business\concretes</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpoyeeService.h">
+      <Filter>Source Files\business\abstracts</Filter>
+    </ClCompile>
+    <ClCompile Include="UserService.h">
+      <Filter>Source Files\business\abstracts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\entities\concretes</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Header Files\entities\concretes</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>Source Files\core\utilities\Results</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorResult.h">
+      <Filter>Source Files\core\utilities\Results</Filter>
+    </ClInclude>
+    <ClInclude Include="SuccessResult.h">
+      <Filter>Source Files\core\utilities\Results</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
