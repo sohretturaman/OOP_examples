@@ -1,6 +1,0 @@
-﻿  main.cpp
-C:\Users\şöhret\Desktop\c++Important\collage_system_copyright\collage_system_copyright\main.cpp(110,12): warning C4129: 'N': unrecognized character escape sequence
-C:\Users\şöhret\Desktop\c++Important\collage_system_copyright\collage_system_copyright\main.cpp(150,6): warning C4101: 'i': unreferenced local variable
-C:\Users\şöhret\Desktop\c++Important\collage_system_copyright\collage_system_copyright\main.cpp(249,9): warning C4101: 'j': unreferenced local variable
-C:\Users\şöhret\Desktop\c++Important\collage_system_copyright\collage_system_copyright\main.cpp(269,9): warning C4101: 'j': unreferenced local variable
-  collage_system_copyright.vcxproj -> C:\Users\şöhret\Desktop\c++Important\collage_system_copyright\x64\Debug\collage_system_copyright.exe
